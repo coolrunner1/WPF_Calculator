@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Калькулятор 2.0 Новое Поколение (Лабораторная работа №7)" Height="470" Width="200" MinHeight="470" MinWidth="200">
+    <Grid>
+        <TextBox Name="MainText" IsReadOnly="True" FontSize="20px" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" TextAlignment="Right" Text="TextBox" VerticalAlignment="Top" Width="180" Height="33" TextChanged="TextBox_TextChanged"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_9"/>
+        <Button Content="." HorizontalAlignment="Center" Margin="10,10,10,10" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_10"/>
+        <Button Content="=" HorizontalAlignment="Right" Margin="10,10,10,10" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_11"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,10,10,65" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_6"/>
+        <Button Content="8" HorizontalAlignment="Center" Margin="10,10,10,65" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_7"/>
+        <Button Content="9" HorizontalAlignment="Right" Margin="10,10,10,65" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_8"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,10,10,120" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_3"/>
+        <Button Content="5" HorizontalAlignment="Center" Margin="10,10,10,120" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_4"/>
+        <Button Content="6" HorizontalAlignment="Right" Margin="10,10,10,120" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_5"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,10,10,175" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click"/>
+        <Button Content="2" HorizontalAlignment="Center" Margin="10,10,10,175" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_1"/>
+        <Button Content="3" HorizontalAlignment="Right" Margin="10,10,10,175" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_2"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="10,10,10,230" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_19"/>
+        <Button Content="+-" HorizontalAlignment="Center" Margin="10,10,10,230" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_15"/>
+        <Button Content="^" HorizontalAlignment="Right" Margin="10,10,10,230" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_20"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="10,10,10,285" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_16"/>
+        <Button Content="-" HorizontalAlignment="Center" Margin="10,10,10,285" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_17"/>
+        <Button Content="*" HorizontalAlignment="Right" Margin="10,10,10,285" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_18"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="10,10,10,340" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_12"/>
+        <Button Content="C" HorizontalAlignment="Center" Margin="10,10,10,340" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_13"/>
+        <Button Content="&lt;–" HorizontalAlignment="Right" Margin="10,10,10,340" VerticalAlignment="Bottom" Height="45" Width="50" Click="Button_Click_14"/>
+    </Grid>
+</Window>
